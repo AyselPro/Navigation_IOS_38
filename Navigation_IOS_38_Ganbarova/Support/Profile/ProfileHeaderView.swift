@@ -79,7 +79,7 @@ final class ProfileHeaderView: UIView {
         showStatusButton.setTitleColor(UIColor.white, for: .normal)
         showStatusButton.setTitleColor(UIColor.red, for: .focused)
         showStatusButton.setTitleColor(UIColor.red, for: .highlighted)
-        showStatusButton.setTitle("Show status", for: .normal)
+        showStatusButton.setTitle("Set status", for: .normal)
         showStatusButton.layer.cornerRadius = 4
         
         textField.borderStyle = .roundedRect
